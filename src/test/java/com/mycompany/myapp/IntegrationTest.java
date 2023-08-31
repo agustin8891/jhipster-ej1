@@ -1,6 +1,5 @@
 package com.mycompany.myapp;
 
-import com.mycompany.myapp.Ej1App;
 import com.mycompany.myapp.config.AsyncSyncConfiguration;
 import com.mycompany.myapp.config.EmbeddedSQL;
 import java.lang.annotation.ElementType;
