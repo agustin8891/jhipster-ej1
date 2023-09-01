@@ -1,0 +1,14 @@
+.\ngrok.exe http nropuerto
+
+ej:
+
+.\ngrok.exe http 9060
+
+.\ngrok.exe http 9000
+
+.\ngrok.exe http 8080
+
+################################
+
+.\ngrok http 9060 --host-header="localhost:9060"
+.\ngrok http --host-header=rewrite 9060
