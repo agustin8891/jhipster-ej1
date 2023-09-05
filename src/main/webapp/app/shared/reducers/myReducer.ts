@@ -1,8 +1,9 @@
-export const initialState = {
-  allCharacters: [],
-};
 import { AppThunk } from 'app/config/store';
 import axios from 'axios';
+
+const initialState = {
+  datos: 'los datos',
+};
 
 export default async function getAll(state = initialState) {
   const alicia = await axios.get('https://rickandmortyapi.com/api/character');
@@ -11,3 +12,4 @@ export default async function getAll(state = initialState) {
     ...state,
   };
 }
+7;

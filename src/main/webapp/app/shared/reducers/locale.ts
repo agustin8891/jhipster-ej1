@@ -85,5 +85,4 @@ export const LocaleSlice = createSlice({
 
 export const { updateLocale, loaded } = LocaleSlice.actions;
 
-// Reducer
 export default LocaleSlice.reducer;
